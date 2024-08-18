@@ -1,12 +1,16 @@
-# Getting Started with Create React App
+# Eat-n-Split
+
+This project is a React application designed to help friends split expenses. It allows users to add friends, track balances, and split bills, ensuring that everyone pays their fair share. The application is styled using CSS and provides an intuitive user interface for managing expenses among friends.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +18,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,44 +31,41 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### `npm run eject`
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `index.js`: The entry point for the React application, where the root component is rendered.
+- `App.js`: The main component that includes logic for adding friends, selecting friends, and splitting bills.
+- `index.css`: Contains all the styles used in the application to ensure the app is visually appealing and responsive.
 
-## Learn More
+## Project Overview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application consists of features that allow users to:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Add Friends**: Users can add friends to their list with a name and image.
+2. **Select Friends**: Users can select a friend to split expenses with.
+3. **Split Bills**: Users can enter the bill amount and split it between themselves and their selected friend.
 
-### Code Splitting
+### Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **App.js**: The main application logic, including handling friends and bill splitting.
+- **Button.js**: A reusable button component for various actions like adding friends and submitting forms.
+- **FriendsList.js**: Manages the list of friends and handles selection.
+- **FormAddFriend.js**: A form to add a new friend with a name and image URL.
+- **FormSplitBill.js**: A form to split a bill with a selected friend.
 
-### Analyzing the Bundle Size
+### Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **index.css**: Provides the necessary styles for the application, including color schemes, layout, and responsive design elements.
 
-### Making a Progressive Web App
+### Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `react`: The core library for building the user interface.
+- `react-dom`: Handles the rendering of React components.
 
-### Advanced Configuration
+### Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Olha Chernysh**
